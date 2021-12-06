@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>DinerMax3000BusinessLayer</AssemblyName>
+    <RootNamespace>DinerMax3000.Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="sdDinerMax3000.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>sdDinerMax3000.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="sdDinerMax3000.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sdDinerMax3000.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

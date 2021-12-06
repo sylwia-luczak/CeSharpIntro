@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DinerMax3000Console
+namespace DinerMax3000.Business
 {
-    class Order
+    public class Order
     {
 
         public List<MenuItem> items = new List<MenuItem>();
